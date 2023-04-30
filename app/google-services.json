@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "92756633044",
+    "firebase_url": "https://practicamfc-2069a-default-rtdb.firebaseio.com",
+    "project_id": "practicamfc-2069a",
+    "storage_bucket": "practicamfc-2069a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92756633044:android:bc1e78dd6381bc65dbe241",
+        "android_client_info": {
+          "package_name": "kalachik.com.practicmfc20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92756633044-hbi6oha6l0kjsr23tr8853b579huoral.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3KfaXqXWoH9JsVS5RJoacIXo5Neqou_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92756633044-hbi6oha6l0kjsr23tr8853b579huoral.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

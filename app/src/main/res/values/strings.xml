@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">practicMFC2.0</string>
+    <string name="logPasError">Неправильный логин или пароль!</string>
+</resources>

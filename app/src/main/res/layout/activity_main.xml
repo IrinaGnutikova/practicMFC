@@ -1,0 +1,75 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+
+            <EditText
+                android:id="@+id/etLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imLogo"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+
+                android:drawablePadding="20dp"
+                android:hint="Email"
+                android:padding="20dp"
+/>
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etLog"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:drawablePadding="20dp"
+                android:hint="Пароль"
+                android:inputType="textPassword"
+                android:padding="20dp" />
+
+            <Button
+                android:id="@+id/btnEnter"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/etPass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/mainelement"
+                android:text="Войти" />
+
+            <Button
+                android:id="@+id/btnReg"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/btnEnter"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/mainelement"
+                android:text="Регистрация" />
+
+            <ImageView
+                android:id="@+id/imLogo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+
+                app:srcCompat="@drawable/_200px___logo"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+</layout>
